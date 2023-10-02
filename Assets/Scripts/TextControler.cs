@@ -9,16 +9,18 @@ public class TextControler : MonoBehaviour
     GameObject textBox;
     GameObject player;
     Diologue diologue;
-    void Start()
+    void Awake()
     {
         instance = this;
         player = GameObject.FindGameObjectWithTag("Player");
         textBox = GameObject.FindGameObjectWithTag("textBox");
         diologue = textBox.GetComponent<Diologue>();
+        FinishDiolog();
     }
 
     public void StartDiolog(string[] text) 
     {
+        diologue.index = 0;
         player.GetComponent<PlayerMovement>().enabled = false;
         textBox.SetActive(true);
         diologue.diologues = text;

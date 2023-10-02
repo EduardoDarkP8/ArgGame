@@ -29,11 +29,11 @@ public class Diologue : MonoBehaviour
         if (next)
         {
             next = false;
-            if (index < diologues.Length-1) 
+            if (index < diologues.Length) 
             { 
                 index++;
             }
-            if (index == diologues.Length - 1)
+            if (index == diologues.Length)
             {
                 TextControler.instance.FinishDiolog();
             }
