@@ -16,10 +16,9 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         x = Input.GetAxisRaw("Horizontal");
-        y = Input.GetAxisRaw("Vertical");
     }
     private void FixedUpdate()
     {
-        rg.velocity = new Vector3(x, y)*velocity;
+        rg.velocity = new Vector3(x * velocity, rg.velocity.y);
     }
 }
