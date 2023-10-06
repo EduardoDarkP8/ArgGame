@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 208d5507e5f146743b177f842be9777b
+guid: 9a665be342ce2a747bc93ceb9f1a07c3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,19 +120,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -149,169 +136,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Npc3 - idle-Sheet_0
+      name: "Palha\xE7osheet_0"
       rect:
         serializedVersion: 2
-        x: 24
-        y: 16
-        width: 47
-        height: 77
-      alignment: 9
-      pivot: {x: 0.5210392, y: 0.44954845}
+        x: 25
+        y: 29
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f498ae5f332b624baf9840771266c5a
-      internalID: -855272441
+      spriteID: 8a594f4dd2d2afa418d0d9ebde99306c
+      internalID: -122077427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Npc3 - idle-Sheet_1
+      name: "Palha\xE7osheet_1"
       rect:
         serializedVersion: 2
-        x: 124
-        y: 16
-        width: 47
-        height: 79
-      alignment: 9
-      pivot: {x: 0.51953644, y: 0.4374146}
+        x: 121
+        y: 29
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c15d57c30bf5a647aab7de03d051656
-      internalID: 1197032553
+      spriteID: fd7618b19ba94944493de473af06ee82
+      internalID: 207688324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Npc3 - idle-Sheet_2
+      name: "Palha\xE7osheet_2"
       rect:
         serializedVersion: 2
-        x: 224
-        y: 16
-        width: 47
-        height: 80
-      alignment: 9
-      pivot: {x: 0.5180336, y: 0.43554816}
+        x: 226
+        y: 29
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a25d06889058b6d4f83e3a6d5ff1601b
-      internalID: 2026567765
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Npc3 - idle-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 16
-        width: 47
-        height: 79
-      alignment: 9
-      pivot: {x: 0.5210396, y: 0.43562642}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7a46dd3296265047b8c0eb802ee92ab
-      internalID: -1386604616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Npc3 - idle-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 16
-        width: 47
-        height: 77
-      alignment: 9
-      pivot: {x: 0.5210396, y: 0.45046577}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ae9b0de0ddf6ec4ab1b87b6233ab325
-      internalID: 641835870
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Npc3 - idle-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 524
-        y: 16
-        width: 47
-        height: 75
-      alignment: 9
-      pivot: {x: 0.51953644, y: 0.4077073}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69fb7afa965d46a448abf10c6e53dabe
-      internalID: 1805866277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Npc3 - idle-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 624
-        y: 16
-        width: 47
-        height: 75
-      alignment: 9
-      pivot: {x: 0.51953644, y: 0.40959087}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c89a245730af5e47bf8b704d397cadd
-      internalID: -1096618680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Npc3 - idle-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 724
-        y: 16
-        width: 47
-        height: 75
-      alignment: 9
-      pivot: {x: 0.5180339, y: 0.40959087}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b504624379a326a49ad7e4452ae80b83
-      internalID: -1203762577
+      spriteID: c7aa5645fce5a2942be8fa3b81b6471e
+      internalID: 1112377097
       vertices: []
       indices: 
       edges: []
@@ -327,14 +209,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Npc3 - idle-Sheet_0: -855272441
-      Npc3 - idle-Sheet_1: 1197032553
-      Npc3 - idle-Sheet_2: 2026567765
-      Npc3 - idle-Sheet_3: -1386604616
-      Npc3 - idle-Sheet_4: 641835870
-      Npc3 - idle-Sheet_5: 1805866277
-      Npc3 - idle-Sheet_6: -1096618680
-      Npc3 - idle-Sheet_7: -1203762577
+      "Palha\xE7osheet_0": -122077427
+      "Palha\xE7osheet_1": 207688324
+      "Palha\xE7osheet_2": 1112377097
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
