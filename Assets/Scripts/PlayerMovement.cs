@@ -8,17 +8,20 @@ public class PlayerMovement : MonoBehaviour
     SpriteRenderer sr;
     public float velocity = 2f;
     float x, y;
+    Animator animator;
     void Start()
     {
         rg = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         x = Input.GetAxisRaw("Horizontal");
-		if (x > 0) 
+        animator.SetInteger("Horizontal",(int)x);
+        if (x > 0) 
         {
             sr.flipX = false;
         }
