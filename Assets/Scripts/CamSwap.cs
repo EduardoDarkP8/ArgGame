@@ -5,6 +5,7 @@ using UnityEngine;
 public class CamSwap : MonoBehaviour
 {
     GameObject cam;
+    public bool animate =  true;
     void Start()
     {
         cam = GameObject.FindGameObjectWithTag("MainCamera");
@@ -20,6 +21,8 @@ public class CamSwap : MonoBehaviour
         if (collision.tag == "Player") 
         {
             cam.transform.position = transform.position;
+            if(animate)
+            collision.GetComponent<PlayerMovement>().follow.SetTrigger("Start");
         }
     }
 }

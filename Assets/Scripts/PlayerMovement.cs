@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float velocity = 2f;
     float x, y;
     Animator animator;
+    public Animator follow;
     void Start()
     {
         rg = GetComponent<Rigidbody2D>();
